@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Text-to-Image Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Gere uma imagem a partir de texto</h1>
+    <form id="textForm">
+      <input type="text" id="apiKey" placeholder="Insira da chave da api..." required>
+      <input type="text" id="textInput" placeholder="Descreva a imagem..." required>
+      <button id="btn-submit" type="submit">Gerar imagem</button>
+    </form>
+    <div id="output"></div>
+  </div>
+
+  <script src="main.js" type="module"></script>
+</body>
+
+</html>
